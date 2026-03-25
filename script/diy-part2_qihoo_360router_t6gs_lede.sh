@@ -107,10 +107,10 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' packag
 #git clone --depth=1 https://github.com/Ausaci/luci-app-nat6-helper
 
 # Add luci-theme-argon
-cd lede/package/lean
-rm -rf luci-theme-argon 
-git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
-git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
+#cd lede/package/lean
+#rm -rf luci-theme-argon 
+#git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
+#git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
 
 # Add luci-theme-rosy
 #git clone --depth=1 -b openwrt-18.06 https://github.com/shiyu1314/luci-theme-rosy
